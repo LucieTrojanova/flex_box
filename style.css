@@ -1,6 +1,19 @@
 /*Tady piš svůj kód*/
-
 /*-------------*/
+.content {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout {
+  display: flex;
+}
+
 *,
 :before,
 :after {
@@ -8,6 +21,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
